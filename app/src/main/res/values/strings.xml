@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">DeliverLK</string>
+    <string name="app_tagline">Fleet management for Sri Lanka</string>
+
+    <!-- Navigation / General -->
+    <string name="dashboard">Dashboard</string>
+    <string name="deliveries">Deliveries</string>
+    <string name="reports">Reports</string>
+    <string name="profile">Profile</string>
+    <string name="route">Today\'s Route</string>
+    <string name="navigate">Navigate</string>
+    <string name="earnings">Earnings</string>
+    <string name="track_order">Track Order</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number (+94)</string>
+    <string name="select_role">Select Your Role</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="demo_login">Quick Demo Login</string>
+    <string name="demo_manager">Demo Manager</string>
+    <string name="demo_driver">Demo Driver</string>
+    <string name="demo_customer">Demo Customer</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="reset_link_sent">Password reset instructions sent to your email.</string>
+    <string name="role_manager">Fleet Manager</string>
+    <string name="role_manager_desc">Manage fleet, assign deliveries, view analytics</string>
+    <string name="role_driver">Courier Driver</string>
+    <string name="role_driver_desc">View routes, navigate, capture proof of delivery</string>
+    <string name="role_customer">Customer</string>
+    <string name="role_customer_desc">Track packages live with realtime updates</string>
+
+    <!-- Manager -->
+    <string name="active_vehicles">Active Vehicles</string>
+    <string name="deliveries_today">Deliveries Today</string>
+    <string name="completed">Completed</string>
+    <string name="delayed">Delayed</string>
+    <string name="all">All</string>
+    <string name="moving">Moving</string>
+    <string name="idle">Idle</string>
+    <string name="offline">Offline</string>
+    <string name="assign_delivery">Assign Delivery</string>
+    <string name="create_delivery">Create Delivery</string>
+    <string name="view_all_vehicles">View All Vehicles</string>
+    <string name="view_driver">View Driver</string>
+    <string name="call_driver">Call Driver</string>
+    <string name="vehicle_fleet">Fleet Vehicles</string>
+    <string name="driver_details">Driver Detail</string>
+    <string name="safety_record">Safety Record</string>
+    <string name="suggest_optimal_order">Suggest Optimal Order</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="items_description">Items Description</string>
+    <string name="special_instructions">Special Instructions</string>
+    <string name="priority">Priority</string>
+    <string name="assign_driver_label">Assign Driver</string>
+
+    <!-- Driver -->
+    <string name="duty_status">Duty Status</string>
+    <string name="online">Online</string>
+    <string name="offline_duty">Offline Duty</string>
+    <string name="no_connection_banner">No connection — changes will sync later</string>
+    <string name="start_navigation">Start Navigation</string>
+    <string name="report_problem">Report Problem</string>
+    <string name="arrived">Arrived</string>
+    <string name="proof_of_delivery">Proof of Delivery</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="upload_gallery">Upload from Gallery</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="recipient_name">Recipient Name</string>
+    <string name="note">Optional Note</string>
+    <string name="this_week_earnings">This Week\'s Total</string>
+    <string name="pending_payout">Pending Payout</string>
+    <string name="request_payout">Request Payout</string>
+    <string name="safety_score">Safety Score</string>
+
+    <!-- Customer -->
+    <string name="enter_tracking_code">Enter Order ID / Tracking Code</string>
+    <string name="track">Track</string>
+    <string name="recent_orders">Recent Orders</string>
+    <string name="live_tracking">Live Tracking</string>
+    <string name="eta">ETA</string>
+    <string name="distance">Distance</string>
+    <string name="report_issue">Report an Issue</string>
+
+    <!-- Statuses -->
+    <string name="status_pending">Pending</string>
+    <string name="status_assigned">Assigned</string>
+    <string name="status_picked_up">Picked Up</string>
+    <string name="status_out_for_delivery">Out for Delivery</string>
+    <string name="status_delivered">Delivered</string>
+    <string name="status_failed">Failed</string>
+
+    <!-- Common Buttons & Actions -->
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_logout">Are you sure you want to logout?</string>
+    <string name="notifications">Notifications</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language</string>
+    <string name="debug_offline_toggle">Debug: Simulate Offline Mode</string>
+    <string name="retry">Retry</string>
+    <string name="empty_data">No items found</string>
+    <string name="search">Search…</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+</resources>
