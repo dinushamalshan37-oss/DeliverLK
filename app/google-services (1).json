@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "340601597786",
+    "project_id": "deliverlk",
+    "storage_bucket": "deliverlk.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340601597786:android:b9d47595885367fbed4d63",
+        "android_client_info": {
+          "package_name": "com.example.deliverlk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXNzX_tJIkPnhlXcREUhdAtvjK2Dcqawk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
