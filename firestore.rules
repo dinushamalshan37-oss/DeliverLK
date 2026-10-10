@@ -1,0 +1,86 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isUser(uid) {
+      return isSignedIn() && request.auth.uid == uid;
+    }
+
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function userRole() {
+      return getUserData().role;
+    }
+
+    function sameCompany(companyId) {
+      return isSignedIn() && getUserData().companyId == companyId;
+    }
+
+    // Rules for users collection
+    match /users/{uid} {
+      allow read: if isSignedIn() && (isUser(uid) || sameCompany(resource.data.companyId));
+      allow create: if isSignedIn() && isUser(uid);
+      allow update: if isSignedIn() && isUser(uid) && request.resource.data.role == resource.data.role;
+    }
+
+    // Rules for companies
+    match /companies/{companyId} {
+      allow read, write: if isSignedIn() && sameCompany(companyId);
+    }
+
+    // Rules for vehicles
+    match /vehicles/{vehicleId} {
+      allow read: if isSignedIn();
+      allow create, delete: if isSignedIn() && userRole() == "MANAGER";
+      allow update: if isSignedIn() && (
+        userRole() == "MANAGER" ||
+        (userRole() == "DRIVER" && resource.data.driverUid == request.auth.uid &&
+         request.resource.data.diff(resource.data).affectedKeys().hasOnly(['location', 'speedKmh', 'heading', 'status', 'lastUpdated']))
+      );
+    }
+
+    // Rules for deliveries
+    match /deliveries/{deliveryId} {
+      allow read: if isSignedIn() && (
+        userRole() == "MANAGER" ||
+        resource.data.driverUid == request.auth.uid ||
+        resource.data.customerUid == request.auth.uid
+      );
+      allow create: if isSignedIn() && userRole() == "MANAGER";
+      allow update: if isSignedIn() && (
+        userRole() == "MANAGER" ||
+        (userRole() == "DRIVER" && resource.data.driverUid == request.auth.uid &&
+         request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'proof', 'updatedAt', 'deliveredAt']))
+      );
+
+      match /events/{eventId} {
+        allow read, write: if isSignedIn();
+      }
+    }
+
+    // Rules for safety events
+    match /safetyEvents/{eventId} {
+      allow create: if isSignedIn() && request.resource.data.driverUid == request.auth.uid;
+      allow read: if isSignedIn() && (
+        resource.data.driverUid == request.auth.uid ||
+        userRole() == "MANAGER"
+      );
+    }
+
+    // Rules for payouts
+    match /payouts/{payoutId} {
+      allow create: if isSignedIn() && request.resource.data.driverUid == request.auth.uid;
+      allow read: if isSignedIn() && (
+        resource.data.driverUid == request.auth.uid ||
+        userRole() == "MANAGER"
+      );
+    }
+  }
+}
