@@ -5,10 +5,10 @@ NIBM HND Software Engineering, Mobile Application Development module project.
 
 ## Features
 
-- **Fleet Manager:** live map of all vehicles, delivery assignment, daily reports, driver safety records
-- **Driver:** delivery checklist, turn-by-turn navigation, photo proof of delivery, earnings tracker
-- **Customer:** live order tracking with distance and ETA
-- **Offline support:** driver's daily route cached locally and synced when back online
+- **Fleet Manager:** live map of all vehicles, delivery assignment, daily reports, driver safety records.
+- **Driver:** delivery checklist, turn-by-turn navigation, photo proof of delivery, earnings tracker.
+- **Customer:** live order tracking with distance and ETA.
+- **Offline support:** driver's daily route cached locally and synced when back online.
 
 ## Tech Stack
 
