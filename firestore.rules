@@ -15,13 +15,11 @@ service cloud.firestore {
       return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
     }
 
-    function userRole() 
-    {
+    function userRole() {
       return getUserData().role;
     }
 
-    function sameCompany(companyId) 
-    {
+    function sameCompany(companyId) {
       return isSignedIn() && getUserData().companyId == companyId;
     }
 
