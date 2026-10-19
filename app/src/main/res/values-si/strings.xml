@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeliverLK</string>
+    <string name="app_tagline">ශ්‍රී ලංකාව සඳහා රථවාහන කළමනාකරණය</string>
+    <string name="default_web_client_id" translatable="false">340601597786-vpma00rkola0hh38morde1n2pm8jtji8.apps.googleusercontent.com</string>
+    <string name="back">ආපසු</string>
+    <string name="reason_customer_unavailable">පාරිභෝගිකයා නොමැත / දුරකථනය සම්බන්ධ කරගත නොහැක</string>
+    <string name="reason_wrong_address">වැරදි ලිපිනයක් හෝ සොයාගත නොහැක</string>
+    <string name="reason_customer_refused">පාරිභෝගිකයා පාර්සලය ප්‍රතික්ෂේප කළේය</string>
+    <string name="reason_damaged_package">පාර්සලය හානි වී ඇත</string>
+    <string name="reason_other">වෙනත් හේතුවක්</string>
+    <string name="priority_low">අඩු</string>
+    <string name="priority_medium">මධ්‍යම</string>
+    <string name="priority_high">වැඩි</string>
+    <string name="priority_urgent">අත්‍යවශ්‍ය</string>
+    <string name="eta_mins_fmt">ඇස්තමේන්තුගත කාලය: මිනිත්තු %1$d</string>
+    <string name="driver_name_fmt">රියදුරු: %1$s</string>
+    <string name="vehicle_speed_updated_fmt">වේගය: %1$d km/h • %2$s</string>
+    <string name="updated_time_fmt">යාවත්කාලීන වූයේ %1$s</string>
+
+    <!-- Navigation / General -->
+    <string name="dashboard">පුවරුව</string>
+    <string name="deliveries">බෙදාහැරීම්</string>
+    <string name="reports">වාර්තා</string>
+    <string name="profile">ගිණුම</string>
+    <string name="route">අද දින මාර්ගය</string>
+    <string name="navigate">මගපෙන්වීම</string>
+    <string name="earnings">ආදායම</string>
+    <string name="track_order">ඇණවුම පරීක්ෂා කරන්න</string>
+
+    <!-- Auth -->
+    <string name="login">පිවිසෙන්න</string>
+    <string name="register">ලියාපදිංචි වන්න</string>
+    <string name="email">විද්‍යුත් තැපෑල</string>
+    <string name="password">මුරපදය</string>
+    <string name="confirm_password">මුරපදය තහවුරු කරන්න</string>
+    <string name="forgot_password">මුරපදය අමතකද?</string>
+    <string name="full_name">සම්පූර්ණ නම</string>
+    <string name="phone_number">දුරකථන අංකය (+94)</string>
+    <string name="select_role">ඔබගේ කාර්යභාරය තෝරන්න</string>
+    <string name="dont_have_account">ගිණුමක් නැද්ද? ලියාපදිංචි වන්න</string>
+    <string name="already_have_account">ගිණුමක් තිබේද? පිවිසෙන්න</string>
+    <string name="demo_login">නිරූපණ පිවිසුම</string>
+    <string name="demo_manager">කළමනාකරු</string>
+    <string name="demo_driver">රියදුරු</string>
+    <string name="demo_customer">පාරිභෝගිකයා</string>
+    <string name="reset_password">මුරපදය නැවත සකසන්න</string>
+    <string name="send_reset_link">සබැඳිය යවන්න</string>
+    <string name="reset_link_sent">මුරපද උපදෙස් ඔබගේ විද්‍යුත් තැපෑලට යැවිණි.</string>
+    <string name="role_manager">රථවාහන කළමනාකරු</string>
+    <string name="role_manager_desc">රථ සමූහය පාලනය, බෙදාහැරීම් පැවරීම සහ වාර්තා බැලීම</string>
+    <string name="role_driver">බෙදාහැරීමේ රියදුරු</string>
+    <string name="role_driver_desc">මාර්ග බැලීම, ගමනාගමනය සහ ලබාදුන් බවට සාක්ෂි තහවුරු කිරීම</string>
+    <string name="role_customer">පාරිභෝගිකයා</string>
+    <string name="role_customer_desc">ඇණවුම් සජීවීව නිරීක්ෂණය කිරීම</string>
+    <string name="login_subtitle">ඔබගේ රථ සමූහ ගිණුමට පිවිසෙන්න</string>
+    <string name="reset_password_desc">මුරපදය නැවත සැකසීමේ උපදෙස් ලබාගැනීමට විද්‍යුත් තැපෑල ඇතුළත් කරන්න.</string>
+    <string name="continue_with_google">Google හරහා ඉදිරියට යන්න</string>
+    <string name="or_divider">හෝ</string>
+    <string name="choose_your_role">ඔබගේ කාර්යභාරය තෝරන්න</string>
+    <string name="complete_profile_desc">ගිණුම සකස් කර අවසන් කිරීමට ඔබගේ තොරතුරු ඇතුළත් කරන්න</string>
+    <string name="finish_setup">සකස් කර අවසන් කරන්න</string>
+    <string name="google_sign_in_failed">Google හරහා පිවිසීම අසාර්ථක විය. නැවත උත්සාහ කරන්න.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">සජීවී රථ සමූහ නිරීක්ෂණය</string>
+    <string name="onboarding_desc_1">ශ්‍රී ලංකාව පුරා රථවාහන සහ ගමනාගමන ප්‍රගතිය සජීවී සිතියම් මගින් නිරීක්ෂණය කරන්න.</string>
+    <string name="onboarding_title_2">ක්ෂණික බාරදීමේ සාක්ෂි</string>
+    <string name="onboarding_desc_2">ඡායාරූප සාක්ෂි, පාරිභෝගික තොරතුරු සහ සටහන් යෙදුම මගින්ම ලබාගන්න.</string>
+    <string name="onboarding_title_3">බුද්ධිමත් මාර්ග තේරීම</string>
+    <string name="onboarding_desc_3">බෙදාහැරීමේ නැවතුම් ප්‍රශස්ත කර ගමනාගමන කාලය අඩුකර කාර්යක්ෂමතාව වැඩි දියුණු කරන්න.</string>
+
+    <!-- Settings & Profile -->
+    <string name="settings">සැකසීම්</string>
+    <string name="select_language">භාෂාව තෝරන්න</string>
+    <string name="assigned_vehicle_label">පවරන ලද රථය: %1$s</string>
+    <string name="theme_system_default">පද්ධති තේමාව</string>
+    <string name="theme_light">ආලෝකවත්</string>
+    <string name="theme_dark">අඳුරු</string>
+
+    <!-- Manager -->
+    <string name="active_vehicles">සක්‍රිය රථ</string>
+    <string name="deliveries_today">අද දින බෙදාහැරීම්</string>
+    <string name="completed">අවසන් කළ</string>
+    <string name="delayed">ප්‍රමාද වූ</string>
+    <string name="all">සියල්ල</string>
+    <string name="moving">ගමන් කරන</string>
+    <string name="idle">නතර කර ඇති</string>
+    <string name="offline">ක්‍රියා විරහිත</string>
+    <string name="assign_delivery">බෙදාහැරීම පවරන්න</string>
+    <string name="create_delivery">නව බෙදාහැරීමක්</string>
+    <string name="view_all_vehicles">සියලු රථ බලන්න</string>
+    <string name="view_driver">රියදුරු බලන්න</string>
+    <string name="call_driver">ඇමතුමක් ගන්න</string>
+    <string name="vehicle_fleet">රථ සමූහය</string>
+    <string name="driver_details">රියදුරු තොරතුරු</string>
+    <string name="safety_record">ආරක්ෂිත වාර්තාව</string>
+    <string name="suggest_optimal_order">හොඳම මාර්ගය තෝරන්න</string>
+    <string name="customer_name">පාරිභෝගිකයාගේ නම</string>
+    <string name="delivery_address">බෙදාහැරීමේ ලිපිනය</string>
+    <string name="items_description">භාණ්ඩ විස්තරය</string>
+    <string name="special_instructions">විශේෂ උපදෙස්</string>
+    <string name="priority">ප්‍රමුඛතාව</string>
+    <string name="assign_driver_label">රියදුරු පවරන්න</string>
+    <string name="fleet_dashboard">රථ සමූහ පුවරුව</string>
+    <string name="no_vehicles_found">රථ සමූහයේ කිසිදු රථයක් හමු නොවීය</string>
+    <string name="speed_label">වේගය</string>
+    <string name="remaining_label">ඉතිරි</string>
+    <string name="last_updated_label">අවසන් වරට යාවත්කාලීන වූයේ</string>
+    <string name="delivery_detail_title">බෙදාහැරීමේ තොරතුරු</string>
+    <string name="assigned_driver">පවරන ලද රියදුරු</string>
+    <string name="reassign">නැවත පවරන්න</string>
+    <string name="delivery_status_timeline">තත්ත්ව ප්‍රගති කාලරාමුව</string>
+    <string name="reassign_driver_title">රියදුරු නැවත පවරන්න</string>
+    <string name="select_driver_optional">රියදුරෙකු තෝරන්න (අවශ්‍ය නම්)</string>
+    <string name="select_driver_for_delivery">බෙදාහැරීම සඳහා රියදුරෙකු තෝරන්න</string>
+    <string name="stops_remaining">නැවතුම් %1$d ක් ඉතිරියි</string>
+    <string name="clean_safety_record">ආරක්ෂිත වාර්තාව යහපත්ය. කිසිදු නීති කඩකිරීමක් නැත.</string>
+    <string name="todays_deliveries">අද දින බෙදාහැරීම්</string>
+    <string name="period_today">අද</string>
+    <string name="period_7_days">පසුගිය දින 7</string>
+    <string name="period_30_days">පසුගිය දින 30</string>
+    <string name="total_orders">මුළු ඇණවුම්</string>
+    <string name="completion_pct">අවසන් කළ ප්‍රතිශතය %</string>
+    <string name="avg_time">සරාසරි වේලාව</string>
+    <string name="deliveries_per_driver">රියදුරු අනුව බෙදාහැරීම්</string>
+    <string name="daily_deliveries_trend">දිනපතා බෙදාහැරීම් ප්‍රවණතාව</string>
+    <string name="driver_leaderboard">රියදුරු ශ්‍රේණිගත කිරීම්</string>
+
+    <!-- Driver -->
+    <string name="duty_status">සේවා තත්ත්වය</string>
+    <string name="online">සක්‍රියයි</string>
+    <string name="offline_duty">අක්‍රියයි</string>
+    <string name="no_connection_banner">සම්බන්ධතාවයක් නැත — පසුව යාවත්කාලීන වේ</string>
+    <string name="start_navigation">ගමන ආරම්භ කරන්න</string>
+    <string name="report_problem">ගැටළුවක් දැනුම් දෙන්න</string>
+    <string name="arrived">ළඟා විය</string>
+    <string name="proof_of_delivery">ලබාදුන් බවට සාක්ෂි</string>
+    <string name="capture_photo">ඡායාරූපයක් ගන්න</string>
+    <string name="upload_gallery">ඡායාරූප මගින් තෝරන්න</string>
+    <string name="mark_complete">අවසන් ලෙස සලකුණු කරන්න</string>
+    <string name="recipient_name">ලබාගත් අයගේ නම</string>
+    <string name="note">අමතර සටහන</string>
+    <string name="this_week_earnings">මේ සතියේ මුළු ආදායම</string>
+    <string name="pending_payout">ලැබීමට ඇති ගෙවීම්</string>
+    <string name="request_payout">ගෙවීම් ඉල්ලන්න</string>
+    <string name="safety_score">ආරක්ෂිත ලකුණු ප්‍රමාණය</string>
+    <string name="delivery_info_title">බාරදීමේ තොරතුරු</string>
+    <string name="call_customer">පාරිභෝගිකයා අමතන්න</string>
+    <string name="delivery_address_label">බෙදාහැරීමේ ලිපිනය</string>
+    <string name="item_details_label">භාණ්ඩ විස්තරය</string>
+    <string name="special_instructions_label">විශේෂ උපදෙස්</string>
+    <string name="map_preview">සිතියම් පෙරදසුන</string>
+    <string name="report_problem_title">බෙදාහැරීමේ ගැටළුවක් දැනුම් දෙන්න</string>
+    <string name="weekly_earnings_breakdown">සතිපතා ආදායම් විග්‍රහය</string>
+    <string name="completed_payouts">අවසන් කළ ගෙවීම්</string>
+    <string name="request_payout_dialog_title">ගෙවීම් ඉල්ලන්න</string>
+    <string name="request_payout_message">ඔබගේ ශ්‍රී ලාංකික බැංකු ගිණුමට %1$s මුදල ක්ෂණිකව තැන්පත් කිරීමට ඉල්ලුම් කරන්නද?</string>
+    <string name="transfer_now">දැන් තැන්පත් කරන්න</string>
+    <string name="my_vehicle">මගේ රථය</string>
+    <string name="destination_marker">ගමනාන්තය: %1$s</string>
+    <string name="in_transit">ගමනේ යෙදෙයි...</string>
+    <string name="greeting_ayubowan">ආයුබෝවන්, %1$s!</string>
+    <string name="todays_progress">අද දින ප්‍රගතිය</string>
+    <string name="stops_delivered_count">%2$d න් %1$d ක් බාරදෙන ලදී</string>
+    <string name="delivery_stops_checklist">බෙදාහැරීමේ නැවතුම් ලැයිස්තුව</string>
+    <string name="view_stop">නැවතුම බලන්න</string>
+    <string name="delivery_complete">බෙදාහැරීම සාර්ථකයි!</string>
+    <string name="camera_preview_placeholder">කැමරා පෙරදසුන</string>
+    <string name="photo_captured_success">ඡායාරූපය සාර්ථකව ලබාගන්නා ලදී</string>
+    <string name="confirm_delivery_title">බෙදාහැරීම අවසන් බව තහවුරු කරන්න</string>
+    <string name="confirm_delivery_msg">ඇණවුම් අංක %1$s බාරදුන් බව සලකුණු කිරීමට ඔබට විශ්වාසද?</string>
+
+    <!-- Customer -->
+    <string name="enter_tracking_code">ඇණවුම් අංකය ඇතුළත් කරන්න</string>
+    <string name="my_orders">මගේ ඇණවුම්</string>
+    <string name="active">සක්‍රිය</string>
+    <string name="place_first_order">ඔබගේ පළමු ඇණවුම යොමු කරන්න</string>
+    <string name="new_order">නව ඇණවුමක්</string>
+    <string name="pickup_address">භාරගන්නා ලිපිනය</string>
+    <string name="dropoff_address">බාරදෙන ලිපිනය</string>
+    <string name="pick_on_map">සිතියමෙන් තෝරන්න</string>
+    <string name="package_weight_kg">භාණ්ඩයේ බර (කි.ග්‍රෑ) - අවශ්‍ය නම්</string>
+    <string name="review_order">ඇණවුම පරීක්ෂා කරන්න</string>
+    <string name="place_order">ඇණවුම යොමු කරන්න</string>
+    <string name="cancel_order">ඇණවුම අවසන් කරන්න</string>
+    <string name="confirm_cancel_order">මෙම ඇණවුම අවසන් කිරීමට ඔබට විශ්වාසද?</string>
+    <string name="camera_permission_required">බාරදීමේ සාක්ෂි ඡායාරූපය ලබාගැනීමට කැමරා අවසරය අවශ්‍ය වේ.</string>
+    <string name="open_settings">සැකසීම් වෙත යන්න</string>
+    <string name="retake_photo">නැවත ඡායාරූපයක් ගන්න</string>
+    <string name="change_photo">ඡායාරූපය වෙනස් කරන්න</string>
+    <string name="saved_offline_msg">මෙම දුරකථනයෙහි සුරකින ලදී, සක්‍රිය වූ පසු යාවත්කාලීන වේ</string>
+    <string name="complete_without_photo">ඡායාරූපය නොමැතිව අවසන් කරන්න</string>
+    <string name="syncing">යාවත්කාලීන වෙමින්…</string>
+    <string name="with_proof">සාක්ෂි සහිත</string>
+    <string name="photo_unavailable">ඡායාරූපය නොමැත</string>
+    <string name="view_proof_photo">සාක්ෂි ඡායාරූපය බලන්න</string>
+    <string name="track">සොයන්න</string>
+    <string name="recent_orders">මෑත ඇණවුම්</string>
+    <string name="live_tracking">සජීවී නිරීක්ෂණය</string>
+    <string name="eta">ඇස්තමේන්තුගත වේලාව</string>
+    <string name="distance">දුර</string>
+    <string name="report_issue">ගැටළුවක් කියන්න</string>
+    <string name="tracking_code_placeholder">උදා: DLK-COL-101</string>
+    <string name="package_delivered_success">පාර්සලය සාර්ථකව බාරදෙන ලදී!</string>
+    <string name="delivered_at">%1$s දී බාරදෙන ලදී</string>
+    <string name="delivery_photo_confirmation">බාරදුන් බවට ඡායාරූප තහවුරු කිරීම</string>
+    <string name="recipient_label">ලබාගන්නා: %1$s</string>
+    <string name="report_issue_title">ගැටළුවක් දැනුම් දීම</string>
+    <string name="describe_issue_desc">මෙම බාරදීම සම්බන්ධ ගැටළුව විස්තර කරන්න.</string>
+    <string name="describe_problem_hint">ගැටළුව විස්තර කරන්න...</string>
+    <string name="submit">යොමු කරන්න</string>
+
+    <!-- Customer Live Tracking (ct_*) -->
+    <string name="ct_destination">ගමනාන්තය</string>
+    <string name="ct_waiting_location">රියදුරුගේ පිහිටීම යාවත්කාලීන වන තෙක් රැඳී සිටින්න…</string>
+    <string name="ct_eta_countdown">ඇස්තමේන්තුගත පැමිණීම</string>
+    <string name="ct_mins_away">මිනිත්තු %1$d කින් ළඟා වේ</string>
+    <string name="ct_distance_km">කිලෝමීටර %.1f ක දුරින්</string>
+    <string name="ct_driver_unassigned">රියදුරෙකු පවරා නැත</string>
+    <string name="ct_vehicle">රථය: %1$s</string>
+    <string name="ct_call_driver">රියදුරු ඇමතීමට</string>
+    <string name="ct_tracking_timeline">ප්‍රගති කාලරාමුව</string>
+    <string name="ct_step_picked_up">ලබාගෙන ඇත</string>
+    <string name="ct_step_out_for_delivery">බෙදාහැරීමට රැගෙන යයි</string>
+    <string name="ct_step_delivered">බාරදෙන ලදී</string>
+
+    <!-- Statuses -->
+    <string name="status_pending">පොරොත්තුවෙන්</string>
+    <string name="status_assigned">පවරා ඇත</string>
+    <string name="status_picked_up">ලබාගෙන ඇත</string>
+    <string name="status_out_for_delivery">බෙදාහැරීමට රැගෙන යයි</string>
+    <string name="status_delivered">බාරදෙන ලදී</string>
+    <string name="status_failed">අසාර්ථක විය</string>
+    <string name="status_cancelled">අවලංගු කළ</string>
+    <string name="customer_order_badge">පාරිභෝගික ඇණවුම</string>
+
+    <!-- Common Buttons & Actions -->
+    <string name="cancel">අවසාන කරන්න</string>
+    <string name="confirm">තහවුරු කරන්න</string>
+    <string name="logout">නික්මෙන්න</string>
+    <string name="confirm_logout">ඔබට නික්ම යාමට අවශ්‍යද?</string>
+    <string name="notifications">දැනුම්දීම්</string>
+    <string name="dark_mode">අඳුරු තේමාව</string>
+    <string name="language">භාෂාව</string>
+    <string name="debug_offline_toggle">නිරූපණය: අක්‍රිය මාදිලිය</string>
+    <string name="retry">නැවත උත්සාහ කරන්න</string>
+    <string name="empty_data">තොරතුරු හමු නොවීය</string>
+    <string name="search">සොයන්න…</string>
+    <string name="next">ඊළඟ</string>
+    <string name="skip">මඟහරින්න</string>
+    <string name="get_started">ආරම්භ කරන්න</string>
+</resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeliverLK</string>
+    <string name="app_tagline">இலங்கைக்கான வாகன தொகுதி மேலாண்மை</string>
+    <string name="default_web_client_id" translatable="false">340601597786-vpma00rkola0hh38morde1n2pm8jtji8.apps.googleusercontent.com</string>
+    <string name="back">பின்னால்</string>
+    <string name="reason_customer_unavailable">வாடிக்கையாளர் இல்லை / தொலைபேசியைத் தொடர்புகொள்ள முடியவில்லை</string>
+    <string name="reason_wrong_address">தவறான முகவரி அல்லது கண்டுபிடிக்க முடியவில்லை</string>
+    <string name="reason_customer_refused">வாடிக்கையாளர் பார்சலை நிராகரித்தார்</string>
+    <string name="reason_damaged_package">பார்சல் சேதமடைந்துள்ளது</string>
+    <string name="reason_other">மற்ற காரணம்</string>
+    <string name="priority_low">குறைந்த</string>
+    <string name="priority_medium">நடுத்தர</string>
+    <string name="priority_high">உயர்</string>
+    <string name="priority_urgent">அவசர</string>
+    <string name="eta_mins_fmt">எதிர்பார்க்கப்படும் நேரம்: %1$d நிமிடங்கள்</string>
+    <string name="driver_name_fmt">ஓட்டுநர்: %1$s</string>
+    <string name="vehicle_speed_updated_fmt">வேகம்: %1$d கி.மீ/மணி • %2$s</string>
+    <string name="updated_time_fmt">புதுப்பிக்கப்பட்டது %1$s</string>
+
+    <!-- Navigation / General -->
+    <string name="dashboard">முகப்பு பலகை</string>
+    <string name="deliveries">டெலிவரிகள்</string>
+    <string name="reports">அறிக்கைகள்</string>
+    <string name="profile">சுயவிவரம்</string>
+    <string name="route">இன்றைய பாதை</string>
+    <string name="navigate">வழிகாட்டு</string>
+    <string name="earnings">வருவாய்</string>
+    <string name="track_order">ஆர்டரைக் கண்காணிக்கவும்</string>
+
+    <!-- Auth -->
+    <string name="login">உள்நுழைக</string>
+    <string name="register">பதிவு செய்க</string>
+    <string name="email">மின்னஞ்சல் முகவரி</string>
+    <string name="password">கடவுச்சொல்</string>
+    <string name="confirm_password">கடவுச்சொல்லை உறுதிப்படுத்துக</string>
+    <string name="forgot_password">கடவுச்சொல் மறந்துவிட்டதா?</string>
+    <string name="full_name">முழுப் பெயர்</string>
+    <string name="phone_number">தொலைபேசி எண் (+94)</string>
+    <string name="select_role">உங்கள் பங்கைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="dont_have_account">கணக்கு இல்லையா? பதிவு செய்க</string>
+    <string name="already_have_account">ஏற்கனவே கணக்கு உள்ளதா? உள்நுழைக</string>
+    <string name="demo_login">டெமோ உள்நுழைவு</string>
+    <string name="demo_manager">டெமோ மேலாளர்</string>
+    <string name="demo_driver">டெமோ ஓட்டுநர்</string>
+    <string name="demo_customer">டெமோ வாடிக்கையாளர்</string>
+    <string name="reset_password">கடவுச்சொல்லை மீட்டமை</string>
+    <string name="send_reset_link">இணைப்பை அனுப்பு</string>
+    <string name="reset_link_sent">கடவுச்சொல் மீட்டமைப்பு வழிமுறைகள் உங்கள் மின்னஞ்சலுக்கு அனுப்பப்பட்டன.</string>
+    <string name="role_manager">வாகனத் தொகுதி மேலாளர்</string>
+    <string name="role_manager_desc">வாகனங்களை நிர்வகித்தல், டெலிவரிகளை ஒதுக்குதல்</string>
+    <string name="role_driver">டெலிவரி ஓட்டுநர்</string>
+    <string name="role_driver_desc">பாதைகளைப் பார்த்தல், வழிசெலுத்தல் மற்றும் அத்தாட்சி எடுத்தல்</string>
+    <string name="role_customer">வாடிக்கையாளர்</string>
+    <string name="role_customer_desc">ஆர்டர்களை நேரலையாகக் கண்காணித்தல்</string>
+    <string name="login_subtitle">உங்கள் கணக்கில் உள்நுழையவும்</string>
+    <string name="reset_password_desc">கடவுச்சொல் மீட்டமைப்பு வழிமுறைகளைப் பெற உங்கள் மின்னஞ்சலை உள்ளிடவும்.</string>
+    <string name="continue_with_google">Google மூலம் தொடரவும்</string>
+    <string name="or_divider">அல்லது</string>
+    <string name="choose_your_role">உங்கள் பங்கைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="complete_profile_desc">அமைப்பை முடிக்க உங்கள் சுயவிவரத்தை பூர்த்தி செய்யவும்</string>
+    <string name="finish_setup">அமைப்பை முடி</string>
+    <string name="google_sign_in_failed">Google உள்நுழைவு தோல்வியடைந்தது. மீண்டும் முயல்க.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">நேரலை வாகனத் தொகுதி கண்காணிப்பு</string>
+    <string name="onboarding_desc_1">இலங்கை முழுவதும் வாகனங்கள் மற்றும் கூரியர் முன்னேற்றத்தை நேரலையாகக் கண்காணிக்கவும்.</string>
+    <string name="onboarding_title_2">உடனடி டெலிவரி அத்தாட்சி</string>
+    <string name="onboarding_desc_2">புகைப்பட அத்தாட்சி, வாடிக்கையாளர் விவரங்கள் மற்றும் குறிப்புகளை ஆப் மூலமே பெறலாம்.</string>
+    <string name="onboarding_title_3">புத்திசாலிப் பாதை தேர்வு</string>
+    <string name="onboarding_desc_3">டெலிவரி நிறுத்தங்களைச் சீரமைத்து, பயண நேரத்தைக் குறைத்து திறனை அதிகரிக்கவும்.</string>
+
+    <!-- Settings & Profile -->
+    <string name="settings">அமைப்புகள்</string>
+    <string name="select_language">மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="assigned_vehicle_label">ஒதுக்கப்பட்ட வாகனம்: %1$s</string>
+    <string name="theme_system_default">கணினி இயல்புநிலை</string>
+    <string name="theme_light">வெளிச்சம்</string>
+    <string name="theme_dark">இருண்ட</string>
+
+    <!-- Manager -->
+    <string name="active_vehicles">செயலில் உள்ள வாகனங்கள்</string>
+    <string name="deliveries_today">இன்றைய டெலிவரிகள்</string>
+    <string name="completed">நிறைவடைந்தவை</string>
+    <string name="delayed">தாமதமானவை</string>
+    <string name="all">அனைத்தும்</string>
+    <string name="moving">இயக்கத்தில்</string>
+    <string name="idle">நிறுத்தப்பட்டுள்ளது</string>
+    <string name="offline">ஆஃப்லைன்</string>
+    <string name="assign_delivery">டெலிவரியை ஒதுக்கு</string>
+    <string name="create_delivery">புதிய டெலிவரி</string>
+    <string name="view_all_vehicles">அனைத்து வாகனங்களையும் பார்</string>
+    <string name="view_driver">ஓட்டுநரைப் பார்</string>
+    <string name="call_driver">அழைப்பு செய்</string>
+    <string name="vehicle_fleet">வாகனத் தொகுதி</string>
+    <string name="driver_details">ஓட்டுநர் விவரங்கள்</string>
+    <string name="safety_record">பாதுகாப்பு பதிவு</string>
+    <string name="suggest_optimal_order">சிறந்த பாதையைப் பரிந்துரைக்கவும்</string>
+    <string name="customer_name">வாடிக்கையாளர் பெயர்</string>
+    <string name="delivery_address">டெலிவரி முகவரி</string>
+    <string name="items_description">பொருட்களின் விவரம்</string>
+    <string name="special_instructions">சிறப்பு அறிவுறுத்தல்கள்</string>
+    <string name="priority">முன்னுரிமை</string>
+    <string name="assign_driver_label">ஓட்டுநரை ஒதுக்கு</string>
+    <string name="fleet_dashboard">வாகனத் தொகுதி முகப்பு</string>
+    <string name="no_vehicles_found">வாகனத் தொகுதியில் வாகனங்கள் எதுவும் இல்லை</string>
+    <string name="speed_label">வேகம்</string>
+    <string name="remaining_label">மீதமுள்ளவை</string>
+    <string name="last_updated_label">கடைசியாக புதுப்பிக்கப்பட்டது</string>
+    <string name="delivery_detail_title">டெலிவரி விவரம்</string>
+    <string name="assigned_driver">ஒதுக்கப்பட்ட ஓட்டுநர்</string>
+    <string name="reassign">மீண்டும் ஒதுக்கு</string>
+    <string name="delivery_status_timeline">டெலிவரி நிலை காலவரிசை</string>
+    <string name="reassign_driver_title">ஓட்டுநரை மீண்டும் ஒதுக்கு</string>
+    <string name="select_driver_optional">ஓட்டுநரைத் தேர்ந்தெடுக்கவும் (விருப்பத்தேர்வு)</string>
+    <string name="select_driver_for_delivery">டெலிவரிக்கு ஓட்டுநரைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="stops_remaining">%1$d நிறுத்தங்கள் மீதம்</string>
+    <string name="clean_safety_record">பாதுகாப்பு பதிவு நன்றாக உள்ளது. எந்த விதிமீறலும் இல்லை.</string>
+    <string name="todays_deliveries">இன்றைய டெலிவரிகள்</string>
+    <string name="period_today">இன்று</string>
+    <string name="period_7_days">கடந்த 7 நாட்கள்</string>
+    <string name="period_30_days">கடந்த 30 நாட்கள்</string>
+    <string name="total_orders">மொத்த ஆர்டர்கள்</string>
+    <string name="completion_pct">நிறைவு %</string>
+    <string name="avg_time">சராசரி நேரம்</string>
+    <string name="deliveries_per_driver">ஓட்டுநருக்கான டெலிவரிகள்</string>
+    <string name="daily_deliveries_trend">தினசரி டெலிவரி போக்கு</string>
+    <string name="driver_leaderboard">ஓட்டுநர் முன்னிலைப்பட்டியல்</string>
+
+    <!-- Driver -->
+    <string name="duty_status">பணி நிலை</string>
+    <string name="online">ஆன்லைன்</string>
+    <string name="offline_duty">ஆஃப்லைன்</string>
+    <string name="no_connection_banner">இணைப்பு இல்லை — பின்னர் புதுப்பிக்கப்படும்</string>
+    <string name="start_navigation">பயணத்தைத் தொடங்கு</string>
+    <string name="report_problem">பிரச்சினையைப் புகாரளி</string>
+    <string name="arrived">வந்து சேர்ந்தது</string>
+    <string name="proof_of_delivery">டெலிவரி அத்தாட்சி</string>
+    <string name="capture_photo">புகைப்படம் எடு</string>
+    <string name="upload_gallery">கேலரியிலிருந்து பதிவேற்று</string>
+    <string name="mark_complete">முடிவடைந்தது என குறிக்கவும்</string>
+    <string name="recipient_name">பெற்றவரின் பெயர்</string>
+    <string name="note">கூடுதல் குறிப்பு</string>
+    <string name="this_week_earnings">இந்த வார மொத்தம்</string>
+    <string name="pending_payout">நிலுவையில் உள்ள தொகை</string>
+    <string name="request_payout">தொகையைக் கோரு</string>
+    <string name="safety_score">பாதுகாப்பு புள்ளி</string>
+    <string name="delivery_info_title">டெலிவரி விவரங்கள்</string>
+    <string name="call_customer">வாடிக்கையாளரை அழைக்கவும்</string>
+    <string name="delivery_address_label">டெலிவரி முகவரி</string>
+    <string name="item_details_label">பொருட்களின் விவரம்</string>
+    <string name="special_instructions_label">சிறப்பு அறிவுறுத்தல்கள்</string>
+    <string name="map_preview">வரைபட முன்னோட்டம்</string>
+    <string name="report_problem_title">டெலிவரி தொடர்பான பிரச்சினையைப் புகாரளிக்கவும்</string>
+    <string name="weekly_earnings_breakdown">வாராந்திர வருவாய் விவரம்</string>
+    <string name="completed_payouts">நிறைவடைந்த கொடுப்பனவுகள்</string>
+    <string name="request_payout_dialog_title">தொகையைக் கோரு</string>
+    <string name="request_payout_message">உங்கள் இணைக்கப்பட்ட இலங்கை வங்கி கணக்கிற்கு %1$s தொகையை உடனடியாக மாற்ற கோருகிறீர்களா?</string>
+    <string name="transfer_now">இப்பொழுதே மாற்றவும்</string>
+    <string name="my_vehicle">என் வாகனம்</string>
+    <string name="destination_marker">செல்லுமிடம்: %1$s</string>
+    <string name="in_transit">பயணத்தில்...</string>
+    <string name="greeting_ayubowan">வணக்கம், %1$s!</string>
+    <string name="todays_progress">இன்றைய முன்னேற்றம்</string>
+    <string name="stops_delivered_count">%2$d இல் %1$d டெலிவரி செய்யப்பட்டது</string>
+    <string name="delivery_stops_checklist">டெலிவரி நிறுத்தங்களின் பட்டியல்</string>
+    <string name="view_stop">நிறுத்தத்தைப் பார்</string>
+    <string name="delivery_complete">டெலிவரி முடிவடைந்தது!</string>
+    <string name="camera_preview_placeholder">கேமரா முன்னோட்டம்</string>
+    <string name="photo_captured_success">புகைப்படம் வெற்றிகரமாக எடுக்கப்பட்டது</string>
+    <string name="confirm_delivery_title">டெலிவரி முடிவடைந்ததை உறுதிப்படுத்தவும்</string>
+    <string name="confirm_delivery_msg">%1$s ஆர்டர் டெலிவரி செய்யப்பட்டது என குறிக்க நிச்சயமாக விரும்புகிறீர்களா?</string>
+
+    <!-- Customer -->
+    <string name="enter_tracking_code">ஆர்டர் எண்ணை உள்ளிடவும்</string>
+    <string name="my_orders">எனது ஆர்டர்கள்</string>
+    <string name="active">செயலில்</string>
+    <string name="place_first_order">உங்கள் முதல் ஆர்டரை வைக்கவும்</string>
+    <string name="new_order">புதிய ஆர்டர்</string>
+    <string name="pickup_address">சேகரிப்பு முகவரி</string>
+    <string name="dropoff_address">டெலிவரி முகவரி</string>
+    <string name="pick_on_map">வரைபடத்தில் தேர்ந்தெடு</string>
+    <string name="package_weight_kg">தொகுப்பு எடை (கி.கி) - விருப்பத்தேர்வு</string>
+    <string name="review_order">ஆர்டரை மதிப்பாய்வு செய்யவும்</string>
+    <string name="place_order">ஆர்டரை வைக்கவும்</string>
+    <string name="cancel_order">ஆர்டரை ரத்து செய்</string>
+    <string name="confirm_cancel_order">இந்த ஆர்டரை நிச்சயமாக ரத்து செய்ய வேண்டுமா?</string>
+    <string name="camera_permission_required">டெலிவரி அத்தாட்சி புகைப்படம் எடுக்க கேமரா அனுமதி தேவை.</string>
+    <string name="open_settings">அமைப்புகளைத் திற</string>
+    <string name="retake_photo">மீண்டும் படம் எடு</string>
+    <string name="change_photo">புகைப்படத்தை மாற்று</string>
+    <string name="saved_offline_msg">இந்த போனில் சேமிக்கப்பட்டது, ஆன்லைனுக்கு வந்ததும் பதிவேற்றப்படும்</string>
+    <string name="complete_without_photo">புகைப்படம் இல்லாமல் முடி</string>
+    <string name="syncing">ஒத்திசைக்கப்படுகிறது…</string>
+    <string name="with_proof">அத்தாட்சியுடன்</string>
+    <string name="photo_unavailable">புகைப்படம் இல்லை</string>
+    <string name="view_proof_photo">அத்தாட்சி படத்தைப் பார்</string>
+    <string name="track">தேடு</string>
+    <string name="recent_orders">சமீபத்திய ஆர்டர்கள்</string>
+    <string name="live_tracking">நேரலைக் கண்காணிப்பு</string>
+    <string name="eta">எதிர்பார்க்கப்படும் நேரம்</string>
+    <string name="distance">தூரம்</string>
+    <string name="report_issue">பிரச்சினையைப் புகாரளி</string>
+    <string name="tracking_code_placeholder">எ.கா. DLK-COL-101</string>
+    <string name="package_delivered_success">பார்சல் வெற்றிகரமாக டெலிவரி செய்யப்பட்டது!</string>
+    <string name="delivered_at">%1$s மணிக்கு டெலிவரி செய்யப்பட்டது</string>
+    <string name="delivery_photo_confirmation">டெலிவரி புகைப்பட உறுதிப்படுத்தல்</string>
+    <string name="recipient_label">பெறுநர்: %1$s</string>
+    <string name="report_issue_title">பிரச்சினையைப் புகாரளித்தல்</string>
+    <string name="describe_issue_desc">இந்த டெலிவரி குறித்த உங்கள் பிரச்சினையை விவரிக்கவும்.</string>
+    <string name="describe_problem_hint">பிரச்சினையை விவரிக்கவும்...</string>
+    <string name="submit">சமர்ப்பி</string>
+
+    <!-- Customer Live Tracking (ct_*) -->
+    <string name="ct_destination">செல்லுமிடம்</string>
+    <string name="ct_waiting_location">ஓட்டுநரின் இருப்பிடப் புதுப்பிப்பிற்காகக் காத்திருக்கிறது…</string>
+    <string name="ct_eta_countdown">எதிர்பார்க்கப்படும் வருகை</string>
+    <string name="ct_mins_away">%1$d நிமிடங்களில் வருகை</string>
+    <string name="ct_distance_km">%.1f கி.மீ தூரத்தில்</string>
+    <string name="ct_driver_unassigned">ஓட்டுநர் ஒதுக்கப்படவில்லை</string>
+    <string name="ct_vehicle">வாகனம்: %1$s</string>
+    <string name="ct_call_driver">ஓட்டுநரை அழைக்கவும்</string>
+    <string name="ct_tracking_timeline">கண்காணிப்பு காலவரிசை</string>
+    <string name="ct_step_picked_up">சேகரிக்கப்பட்டது</string>
+    <string name="ct_step_out_for_delivery">டெலிவரிக்குச் செல்கிறது</string>
+    <string name="ct_step_delivered">டெலிவரி செய்யப்பட்டது</string>
+
+    <!-- Statuses -->
+    <string name="status_pending">நிலுவையில்</string>
+    <string name="status_assigned">ஒதுக்கப்பட்டுள்ளது</string>
+    <string name="status_picked_up">சேகரிக்கப்பட்டது</string>
+    <string name="status_out_for_delivery">டெலிவரிக்குச் செல்கிறது</string>
+    <string name="status_delivered">டெலிவரி செய்யப்பட்டது</string>
+    <string name="status_failed">தோல்வியடைந்தது</string>
+    <string name="status_cancelled">ரத்து செய்யப்பட்டது</string>
+    <string name="customer_order_badge">வாடிக்கையாளர் ஆர்டர்</string>
+
+    <!-- Common Buttons & Actions -->
+    <string name="cancel">ரத்து செய்</string>
+    <string name="confirm">உறுதிப்படுத்து</string>
+    <string name="logout">வெளியேறு</string>
+    <string name="confirm_logout">நிச்சயமாக வெளியேற வேண்டுமா?</string>
+    <string name="notifications">அறிவிப்புகள்</string>
+    <string name="dark_mode">இருண்ட பயன்முறை</string>
+    <string name="language">மொழி</string>
+    <string name="debug_offline_toggle">டெமோ: ஆஃப்லைன் பயன்முறை</string>
+    <string name="retry">மீண்டும் முயல்க</string>
+    <string name="empty_data">தகவல் எதுவும் இல்லை</string>
+    <string name="search">தேடு…</string>
+    <string name="next">அடுத்து</string>
+    <string name="skip">தவிர்</string>
+    <string name="get_started">தொடங்குவோம்</string>
+</resources>
